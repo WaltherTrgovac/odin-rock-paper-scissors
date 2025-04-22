@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="header">ROCK PAPER SCISSORS</div>
+    <div class="main">
+        <div class="main-text">
+            Choose your option
+        </div>
+        <div class="information-text">
+            First to 5 wins!
+        </div>
+        <div class="chosen-container">
+            <div class="chosen-div-container">
+                <div class="chosen-img-player">
+                    &#x2753
+                </div>
+                <div class="score">
+                    Player: <span id=player-score>0</span>
+                </div>
+            </div>
+            <div class="chosen-div-container">
+                <div class="chosen-img-computer">
+                    &#x2753
+                </div>
+                <div class="score">
+                    Computer: <span id=computer-score>0</span>
+                </div>
+            </div>
+        </div>
+        <div class="options-container">
+            <button id="rock">
+                &#x1F44A
+            </button>
+            <button id="paper">
+                &#x1F590
+            </button>
+            <button id="scissors">
+                &#x270C
+            </button>
+        </div>
+    </div>
 </body>
 </html>
